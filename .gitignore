@@ -4,7 +4,11 @@ obj/
 riderModule.iml
 /_ReSharper.Caches/
 
+# creating mod files for Thunderstore
 deploy.ps1
 pack.ps1
 ModFiles/
 mod.zip
+
+# IDE
+.idea
