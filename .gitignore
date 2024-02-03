@@ -12,3 +12,6 @@ mod.zip
 
 # IDE
 .idea
+
+# user files
+*.user
