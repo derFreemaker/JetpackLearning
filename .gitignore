@@ -1,0 +1,10 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+
+deploy.ps1
+pack.ps1
+ModFiles/
+mod.zip

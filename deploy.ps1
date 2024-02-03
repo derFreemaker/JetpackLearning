@@ -1,0 +1,1 @@
+Copy-Item -Path ".\bin\Debug\JetpackLearning.dll" -Destination "U:\omen11\Games\Steam\steamapps\common\Lethal Company\BepInEx\plugins" -Force
