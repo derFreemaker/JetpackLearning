@@ -29,7 +29,6 @@ namespace JetpackLearning
             Mls.LogInfo("Mod is active");
             
             _harmony.PatchAll(typeof(Plugin));
-            // _harmony.PatchAll(typeof(PlayerControllerBPatch));
             _harmony.PatchAll(typeof(PricePatch));
         }
     }
