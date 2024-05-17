@@ -8,7 +8,7 @@ namespace JetpackLearning
     public static class PluginInfo {
         public const string MOD_GUID = "Freemaker.JetpackLearning";
         public const string MOD_NAME = "JetpackLearning";
-        public const string MOD_VERSION = "1.0.0.0";
+        public const string MOD_VERSION = "1.1.0.0";
     }
     
     [BepInPlugin(PluginInfo.MOD_GUID, PluginInfo.MOD_NAME, PluginInfo.MOD_VERSION)]
@@ -26,7 +26,7 @@ namespace JetpackLearning
 
             Mls = BepInEx.Logging.Logger.CreateLogSource(PluginInfo.MOD_GUID);
             
-            Mls.LogInfo("Mod is active");
+            Mls.LogInfo("active");
             
             _harmony.PatchAll(typeof(Plugin));
             _harmony.PatchAll(typeof(PricePatch));
